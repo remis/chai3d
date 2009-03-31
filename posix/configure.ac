@@ -26,7 +26,7 @@ AC_ENABLE_SHARED(yes)
 AC_SUBST(SO_VERSION)
 
 # Checks for programs.
-AC_PROG_CC
+AC_PROG_CXX
 AM_PROG_LIBTOOL
 AM_PROG_CC_C_O
 AC_CHECK_PROG([DOXYGEN], [doxygen], [doc], [])
